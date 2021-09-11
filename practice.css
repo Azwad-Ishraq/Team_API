@@ -1,0 +1,75 @@
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif!important;
+    background-color: #34495e!important;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+#search-field{
+    padding: 10px!important;
+    border: none!important;
+    background-color: rgba(128, 128, 128, 0.308)!important;
+    width: 30%!important;
+    color: white!important;
+
+}
+input::placeholder{
+    color: white!important;
+}
+#search-field:focus{
+    outline: none!important;
+    
+}
+
+button{
+    margin-left: 10px!important;
+    border: none!important;
+    background-color: cornflowerblue;
+    color: white!important;
+    cursor: pointer!important;
+    transition: .3s!important;
+}
+button:hover{
+    background-color: darkcyan!important;
+}
+#team-name{
+    text-align: center!important;
+    color: white!important;
+}
+#team-des{
+    color: #e74c3c!important;
+    width: 90%!important;
+    text-align: center!important;
+}
+#team-banner{
+    width: 100%!important;
+   
+}
+.main{
+    width: 70%!important;
+    margin: 0 auto!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+.icons{
+    display: flex!important;
+    justify-content: center!important;
+    width: 35%!important;
+    justify-content: space-between!important;
+}
+#insta,#fb,#twit{
+    font-size: 50px!important;
+    color: white!important;
+}
+.spin{
+    height: 859px;
+    display: flex;
+    align-items: center;
+}
